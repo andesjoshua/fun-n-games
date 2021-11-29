@@ -9,7 +9,7 @@ const ProjectDetail = ({project: {contributors, title, technologies, link}}) => 
            <h1 style={{fontSize: 30}}>{title}</h1>
            <p>This was a group project with {contributors} contributors, myself and {contributors - 1} other(s).</p>
            <p>Technolgies used in this project include: {tech}</p>
-           <a href={link}>{link ? "Fun N' Games" : "Coming soon"} </a>
+           <a href={link} target='_blank'>{link ? "Fun N' Games" : "Coming soon"} </a>
        </div>
        
    )
