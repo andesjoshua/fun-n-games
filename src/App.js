@@ -5,13 +5,14 @@ import Projects from './components/Projects';
 import LoadingScreen from './components/LoadingScreen';
 import {useEffect, useState} from 'react'
 
+
 function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 1000);
   }, []);
 
   return (
