@@ -15,10 +15,11 @@ const Projects = () => {
     
     
    return (
+          
        <div className='projects'>
-             Projects {project.map((item) => { return <ProjectDetail project={item}/>})}
+             {project.map((item) =>   <ProjectDetail project={item}/>)}
        </div>
-       
+     
    )
 }
 export default Projects

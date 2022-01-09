@@ -26,7 +26,7 @@ function App() {
             <About />
           </section>
           <section className='projects'>
-            <Projects />
+           <Projects />
           </section>
         </div>
         }

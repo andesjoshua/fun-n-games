@@ -1,10 +1,11 @@
 import React from "react";
 
 export const projectData = [
+ 
     {
         id: 1,
         title: "Metabook",
-        technologies: ["React.js, ", "CSS, ", "thirdweb API, ", "and Ruby on Rails."],
+        technologies: ["React.js, ", "CSS, ", "thirdweb, ", " Moralis.io ", "and Ruby on Rails"],
         contributors: "1",
     },
     {
@@ -20,6 +21,14 @@ export const projectData = [
         technologies: ["React.js, ", "CSS, ", "Ruby on Rails, ", "and Vanilla JS."],
         contributors: "3",
         link: "https://still-garden-51529.herokuapp.com/"
+    }, 
+    {
+        id:4,
+        title: "Tic-Tac-Toe",
+        technologies: ["React.js, ", "CSS, ", "Ruby", "and Vanilla JS."],
+        contributors: "3",
+        
+
     }
    
 ]
