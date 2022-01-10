@@ -7,6 +7,7 @@ export const projectData = [
         title: "Metabook",
         technologies: ["React.js, ", "CSS, ", "thirdweb, ", " Moralis.io ", "and Ruby on Rails"],
         contributors: "1",
+        link: "https://youtu.be/o9jxA8q0tFY"
     },
     {
         id: 3,
@@ -27,8 +28,6 @@ export const projectData = [
         title: "Tic-Tac-Toe",
         technologies: ["React.js, ", "CSS, ", "Ruby", "and Vanilla JS."],
         contributors: "3",
-        
-
     }
    
 ]
