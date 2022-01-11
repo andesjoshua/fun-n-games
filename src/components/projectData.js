@@ -26,7 +26,7 @@ export const projectData = [
     {
         id:4,
         title: "Tic-Tac-Toe",
-        technologies: ["React.js, ", "CSS, ", "Ruby", "and Vanilla JS."],
+        technologies: ["React.js, ", "CSS, ", "Ruby", " and Vanilla JS."],
         contributors: "3",
     }
    
